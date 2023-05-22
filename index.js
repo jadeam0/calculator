@@ -19,7 +19,7 @@ equal.addEventListener ('click', (e) => {
         display.value = "";
     }else {
         let answer = eval (display.value);
-        display.value = answer;
+        display.value = answer.toFixed(2);
     }
 })
 
